@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/css/main.css">
+    <style type="text/tailwindcss">
+        @layer utilities {
+          .content-auto {
+            content-visibility: auto;
+          }
+        }
+      </style>
+    <title>Document</title>
+</head>
+<body>
+    <header class="pt-[32px] pb-[57px]">
+        <div class="containers ">
+            <div class="flex justify-center  items-center sm:justify-between">
+                <a class="inline-block" href="/">
+                    <img src="/img/sayt-logo.svg" alt="sayt_logo" width="239" height="58">
+                    
+                </a>
+                <div class="flex items-center space-x-[57px]">
+                    <a class="hidden lg:block" href="№"><img src="/img/sayt-img_2.svg" alt="message" width="46" height="35"></a>
+                    <a class="hidden lg:block" href="mailto:"><img src="/img/sayt-img_3.svg" alt="message" width="46" height="35"></a>
+                    <a class=" hidden md:flex items-center space-x-4 text-[#1E959B] font-semibold" href="tel:+7 800 301-79-27">
+                        <img src="/img/sayt-img_4.svg" alt="phone" width="17" height="31">
+                        <span>+7 800 301-79-27</span></a>
+                    <button  class=" hidden sm:block w-[168px] py-[23px] bg-[#F05670] rounded-[15px] text-white font-semibold">НАЧАТЬ ПРОЕКТ</button>
+                </div>
+            </div>
+        </div>
+    </header>
+    <main>
+        <section>        
+      <div class="containers">
+    <swiper-container class="mySwiper" pagination="true" effect="coverflow" grab-cursor="true" centered-slides="true"
+    slides-per-view="auto" coverflow-effect-rotate="50" coverflow-effect-stretch="0" coverflow-effect-depth="100"
+    coverflow-effect-modifier="1" coverflow-effect-slide-shadows="true">
+    <swiper-slide>
+      <img src=" https://swiperjs.com/demos/images/nature-1.jpg" />
+    </swiper-slide>
+    <swiper-slide>
+      <img src="https://swiperjs.com/demos/images/nature-2.jpg" />
+    </swiper-slide>
+    <swiper-slide>
+      <img src="https://swiperjs.com/demos/images/nature-3.jpg" />
+    </swiper-slide>
+    <swiper-slide>
+      <img src="https://swiperjs.com/demos/images/nature-4.jpg" />
+    </swiper-slide>
+    <swiper-slide>
+      <img src="https://swiperjs.com/demos/images/nature-5.jpg" />
+    </swiper-slide>
+    <swiper-slide>
+      <img src="https://swiperjs.com/demos/images/nature-6.jpg" />
+    </swiper-slide>
+    <swiper-slide>
+      <img src="https://swiperjs.com/demos/images/nature-7.jpg" />
+    </swiper-slide>
+    <swiper-slide>
+      <img src="https://swiperjs.com/demos/images/nature-8.jpg" />
+    </swiper-slide>
+    <swiper-slide>
+      <img src="https://swiperjs.com/demos/images/nature-9.jpg" />
+    </swiper-slide>
+  </swiper-container>              
+            </div>
+        </section>
+    </main>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+        tailwind.config = {
+          theme: {
+            extend: {
+              colors: {
+                clifford: '#da373d',
+              }
+            }
+          }
+        }
+      </script>
+      <script src="/js/main.js"></script>
+      <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-element-bundle.min.js"></script>
+</body>
+</html>
